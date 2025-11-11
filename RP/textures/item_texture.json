@@ -1,0 +1,42 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "ore_tree_coal_sapling": {
+      "textures": "textures/blocks/ore_tree_coal_sapling"
+    },
+    "ore_tree_diamond_sapling": {
+      "textures": "textures/blocks/ore_tree_diamond_sapling"
+    },
+    "ore_tree_emerald_sapling": {
+      "textures": "textures/blocks/ore_tree_emerald_sapling"
+    },
+    "ore_tree_copper_sapling": {
+      "textures": "textures/blocks/ore_tree_copper_sapling"
+    },
+    "ore_tree_gold_sapling": {
+      "textures": "textures/blocks/ore_tree_gold_sapling"
+    },
+    "ore_tree_iron_sapling": {
+      "textures": "textures/blocks/ore_tree_iron_sapling"
+    },
+    "ore_tree_lapis_sapling": {
+      "textures": "textures/blocks/ore_tree_lapis_sapling"
+    },
+    "ore_tree_quartz_sapling": {
+      "textures": "textures/blocks/ore_tree_quartz_sapling"
+    },
+    "ore_tree_redstone_sapling": {
+      "textures": "textures/blocks/ore_tree_redstone_sapling"
+    },
+    "ore_tree_steel_sapling": {
+      "textures": "textures/blocks/ore_tree_steel_sapling"
+    },
+    "ore_tree_netherite_sapling": {
+      "textures": "textures/blocks/ore_tree_netherite_sapling"
+    },
+    "ore_tree_energized_iron_sapling": {
+      "textures": "textures/blocks/ore_tree_energized_iron_sapling"
+    }
+  }
+}

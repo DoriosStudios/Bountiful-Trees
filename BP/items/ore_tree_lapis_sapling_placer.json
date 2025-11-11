@@ -1,0 +1,19 @@
+{
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "bountiful_trees:lapis_sapling",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.sapling"
+			}
+		},
+		"components": {
+			"minecraft:block_placer": {
+				"block": "bountiful_trees:lapis_sapling"
+			},
+			"minecraft:max_stack_size": 64,
+			"minecraft:icon": "ore_tree_lapis_sapling"
+		}
+	}
+}

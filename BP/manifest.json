@@ -1,0 +1,54 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "v1.2.0 - Dorios Studios",
+		"name": "Bountiful Trees",
+		"uuid": "09a70e29-701e-4da3-a217-90855b89ce17",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			21,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "a5dfd6b9-ed65-4e23-b30b-bb55da5766fd",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"uuid": "c16030ea-7adf-4bac-a58c-5a902f877852",
+			"version": [
+				1,
+				0,
+				0
+			],
+			"entry": "scripts/main.js",
+			"language": "javascript"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "69062448-6a14-4dea-a377-0e113aa15b11",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"version": "2.0.0",
+			"module_name": "@minecraft/server"
+		}
+	]
+}

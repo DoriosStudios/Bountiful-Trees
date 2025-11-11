@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "bountiful_trees:copper_log",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.log"
+			}
+		},
+		"components": {
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 3
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 3
+			},
+			"minecraft:friction": 0.4,
+			"minecraft:flammable": {
+				"catch_chance_modifier": 5,
+				"destroy_chance_modifier": 20
+			},
+			"minecraft:map_color": "#FFFFFF",
+			"minecraft:light_dampening": 0,
+			"minecraft:light_emission": 0,
+			"minecraft:loot": "loot_tables/blocks/ore_tree_copper_log.json",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "ore_tree_copper_log_up",
+					"render_method": "opaque"
+				}
+			},
+			"tag:minecraft:is_pickaxe_item_destructible": {}
+		}
+	}
+}

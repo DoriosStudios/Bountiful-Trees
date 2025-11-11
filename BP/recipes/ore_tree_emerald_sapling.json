@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "bountiful_trees:ore_tree_emerald_sapling"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"CCC",
+			"CBC",
+			"CCC"
+		],
+		"key": {
+			"B": {
+				"item": "minecraft:oak_sapling",
+				"data": 0
+			},
+			"C": {
+				"item": "minecraft:emerald",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "bountiful_trees:emerald_sapling",
+			"count": 1
+		},
+		"unlock":[
+			{
+				"item": "sapling"
+			}
+		]
+	}
+}

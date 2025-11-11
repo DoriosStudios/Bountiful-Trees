@@ -1,0 +1,40 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "v1.2.0 - Dorios Studios",
+		"name": "Bountiful Trees",
+		"uuid": "69062448-6a14-4dea-a377-0e113aa15b11",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			21,
+			0
+		]
+	},
+	"modules": [
+		{
+			"description": "Bountiful Trees",
+			"type": "resources",
+			"uuid": "be5ab952-1867-4b27-b60a-fa28fe76379b",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "09a70e29-701e-4da3-a217-90855b89ce17",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

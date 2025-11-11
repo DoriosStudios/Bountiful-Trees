@@ -1,0 +1,212 @@
+{
+	"resource_pack_name": "vanilla",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"ore_tree_coal_log_up": {
+			"textures": "textures/blocks/ore_tree_coal_oak_log_up"
+		},
+		"ore_tree_diamond_log_up": {
+			"textures": "textures/blocks/ore_tree_diamond_oak_log_up"
+		},
+		"ore_tree_diamond_log_down": {
+			"textures": "textures/blocks/ore_tree_diamond_oak_log_down"
+		},
+		"ore_tree_coal_sapling": {
+			"textures": [
+				"textures/blocks/ore_tree_coal_sapling"
+			]
+		},
+		"ore_tree_diamond_sapling": {
+			"textures": [
+				"textures/blocks/ore_tree_diamond_sapling"
+			]
+		},
+		"ore_tree_coal_log_down": {
+			"textures": "textures/blocks/ore_tree_coal_oak_log_down"
+		},
+		"ore_tree_diamond_log_side": {
+			"textures": "textures/blocks/ore_tree_diamond_oak_log_side"
+		},
+		"ore_tree_coal_log_side": {
+			"textures": "textures/blocks/ore_tree_coal_oak_log_side"
+		},
+		"ore_tree_copper_log_up": {
+			"textures": "textures/blocks/ore_tree_copper_oak_log_up"
+		},
+		"ore_tree_emerald_log_up": {
+			"textures": "textures/blocks/ore_tree_emerald_oak_log_up"
+		},
+		"ore_tree_emerald_sapling": {
+			"textures": [
+				"textures/blocks/ore_tree_emerald_sapling"
+			]
+		},
+		"ore_tree_copper_log_down": {
+			"textures": "textures/blocks/ore_tree_copper_oak_log_down"
+		},
+		"ore_tree_emerald_log_down": {
+			"textures": "textures/blocks/ore_tree_emerald_oak_log_down"
+		},
+		"ore_tree_copper_sapling": {
+			"textures": [
+				"textures/blocks/ore_tree_copper_sapling"
+			]
+		},
+		"ore_tree_copper_log_side": {
+			"textures": "textures/blocks/ore_tree_copper_oak_log_side"
+		},
+		"ore_tree_emerald_log_side": {
+			"textures": "textures/blocks/ore_tree_emerald_oak_log_side"
+		},
+		"ore_tree_gold_log_up": {
+			"textures": "textures/blocks/ore_tree_gold_oak_log_up"
+		},
+		"ore_tree_iron_log_up": {
+			"textures": "textures/blocks/ore_tree_iron_oak_log_up"
+		},
+		"ore_tree_gold_sapling": {
+			"textures": [
+				"textures/blocks/ore_tree_gold_sapling"
+			]
+		},
+		"ore_tree_iron_log_down": {
+			"textures": "textures/blocks/ore_tree_iron_oak_log_down"
+		},
+		"ore_tree_gold_log_down": {
+			"textures": "textures/blocks/ore_tree_gold_oak_log_down"
+		},
+		"ore_tree_iron_sapling": {
+			"textures": [
+				"textures/blocks/ore_tree_iron_sapling"
+			]
+		},
+		"ore_tree_gold_log_side": {
+			"textures": "textures/blocks/ore_tree_gold_oak_log_side"
+		},
+		"ore_tree_iron_log_side": {
+			"textures": "textures/blocks/ore_tree_iron_oak_log_side"
+		},
+		"ore_tree_lapis_log_up": {
+			"textures": "textures/blocks/ore_tree_lapis_oak_log_up"
+		},
+		"ore_tree_quartz_log_up": {
+			"textures": "textures/blocks/ore_tree_quartz_oak_log_up"
+		},
+		"ore_tree_lapis_sapling": {
+			"textures": [
+				"textures/blocks/ore_tree_lapis_sapling"
+			]
+		},
+		"ore_tree_lapis_log_down": {
+			"textures": "textures/blocks/ore_tree_lapis_oak_log_down"
+		},
+		"ore_tree_quartz_log_down": {
+			"textures": "textures/blocks/ore_tree_quartz_oak_log_down"
+		},
+		"ore_tree_quartz_sapling": {
+			"textures": [
+				"textures/blocks/ore_tree_quartz_sapling"
+			]
+		},
+		"ore_tree_lapis_log_side": {
+			"textures": "textures/blocks/ore_tree_lapis_oak_log_side"
+		},
+		"ore_tree_quartz_log_side": {
+			"textures": "textures/blocks/ore_tree_quartz_oak_log_side"
+		},
+		"ore_tree_redstone_log_up": {
+			"textures": "textures/blocks/ore_tree_redstone_oak_log_up"
+		},
+		"ore_tree_energized_iron_log_up": {
+			"textures": "textures/blocks/ore_tree_energized_iron_oak_log_up"
+		},
+		"ore_tree_steel_log_up": {
+			"textures": "textures/blocks/ore_tree_steel_oak_log_up"
+		},
+		"ore_tree_redstone_log_down": {
+			"textures": "textures/blocks/ore_tree_redstone_oak_log_down"
+		},
+		"ore_tree_steel_log_down": {
+			"textures": "textures/blocks/ore_tree_steel_oak_log_down"
+		},
+		"ore_tree_energized_iron_log_down": {
+			"textures": "textures/blocks/ore_tree_energized_iron_oak_log_down"
+		},
+		"ore_tree_redstone_sapling": {
+			"textures": [
+				"textures/blocks/ore_tree_redstone_sapling"
+			]
+		},
+		"ore_tree_redstone_log_side": {
+			"textures": "textures/blocks/ore_tree_redstone_oak_log_side"
+		},
+		"ore_tree_steel_log_side": {
+			"textures": "textures/blocks/ore_tree_steel_oak_log_side"
+		},
+		"ore_tree_energized_iron_log_side": {
+			"textures": "textures/blocks/ore_tree_energized_iron_oak_log_side"
+		},
+		"ore_tree_netherite_log_up": {
+			"textures": "textures/blocks/ore_tree_netherite_oak_log_up"
+		},
+		"ore_tree_netherite_log_down": {
+			"textures": "textures/blocks/ore_tree_netherite_oak_log_down"
+		},
+		"ore_tree_steel_sapling": {
+			"textures": [
+				"textures/blocks/ore_tree_steel_sapling"
+			]
+		},
+		"ore_tree_netherite_sapling": {
+			"textures": [
+				"textures/blocks/ore_tree_netherite_sapling"
+			]
+		},
+		"ore_tree_energized_iron_sapling": {
+			"textures": [
+				"textures/blocks/ore_tree_energized_iron_sapling"
+			]
+		},
+		"ore_tree_netherite_log_side": {
+			"textures": "textures/blocks/ore_tree_netherite_oak_log_side"
+		},
+		"ore_tree_coal_leaves": {
+			"textures": "textures/blocks/coal_leaves"
+		},
+		"ore_tree_diamond_leaves": {
+			"textures": "textures/blocks/diamond_leaves"
+		},
+		"ore_tree_emerald_leaves": {
+			"textures": "textures/blocks/emerald_leaves"
+		},
+		"ore_tree_gold_leaves": {
+			"textures": "textures/blocks/gold_leaves"
+		},
+		"ore_tree_iron_leaves": {
+			"textures": "textures/blocks/iron_leaves"
+		},
+		"ore_tree_lapis_leaves": {
+			"textures": "textures/blocks/lapis_leaves"
+		},
+		"ore_tree_netherite_leaves": {
+			"textures": "textures/blocks/netherite_leaves"
+		},
+		"ore_tree_quartz_leaves": {
+			"textures": "textures/blocks/quartz_leaves"
+		},
+		"ore_tree_redstone_leaves": {
+			"textures": "textures/blocks/redstone_leaves"
+		},
+		"ore_tree_steel_leaves": {
+			"textures": "textures/blocks/steel_oak_leaves"
+		},
+		"ore_tree_energized_iron_leaves": {
+			"textures": "textures/blocks/energized_iron_oak_leaves"
+		},
+		"ore_tree_copper_leaves": {
+			"textures": "textures/blocks/copper_leaves"
+		}
+	}
+}

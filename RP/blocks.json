@@ -1,0 +1,199 @@
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"bountiful_trees:diamond_log": {
+		"textures": {
+			"up": "ore_tree_diamond_log_up",
+			"down": "ore_tree_diamond_log_down",
+			"side": "ore_tree_diamond_log_side"
+		},
+		"sound": "wood"
+	},
+	"bountiful_trees:coal_log": {
+		"textures": {
+			"up": "ore_tree_coal_log_up",
+			"down": "ore_tree_coal_log_down",
+			"side": "ore_tree_coal_log_side"
+		},
+		"sound": "wood"
+	},
+	"bountiful_trees:coal_sapling": {
+		"textures": "ore_tree_coal_sapling",
+		"sound": "grass"
+	},
+	"bountiful_trees:diamond_sapling": {
+		"textures": "ore_tree_diamond_sapling",
+		"sound": "grass"
+	},
+	"bountiful_trees:emerald_sapling": {
+		"textures": "ore_tree_emerald_sapling",
+		"sound": "grass"
+	},
+	"bountiful_trees:copper_sapling": {
+		"textures": "ore_tree_copper_sapling",
+		"sound": "grass"
+	},
+	"bountiful_trees:emerald_log": {
+		"textures": {
+			"up": "ore_tree_emerald_log_up",
+			"down": "ore_tree_emerald_log_down",
+			"side": "ore_tree_emerald_log_side"
+		},
+		"sound": "wood"
+	},
+	"bountiful_trees:copper_log": {
+		"textures": {
+			"up": "ore_tree_copper_log_up",
+			"down": "ore_tree_copper_log_down",
+			"side": "ore_tree_copper_log_side"
+		},
+		"sound": "wood"
+	},
+	"bountiful_trees:gold_sapling": {
+		"textures": "ore_tree_gold_sapling",
+		"sound": "grass"
+	},
+	"bountiful_trees:iron_sapling": {
+		"textures": "ore_tree_iron_sapling",
+		"sound": "grass"
+	},
+	"bountiful_trees:gold_log": {
+		"textures": {
+			"up": "ore_tree_gold_log_up",
+			"down": "ore_tree_gold_log_down",
+			"side": "ore_tree_gold_log_side"
+		},
+		"sound": "wood"
+	},
+	"bountiful_trees:iron_log": {
+		"textures": {
+			"up": "ore_tree_iron_log_up",
+			"down": "ore_tree_iron_log_down",
+			"side": "ore_tree_iron_log_side"
+		},
+		"sound": "wood"
+	},
+	"bountiful_trees:lapis_sapling": {
+		"textures": "ore_tree_lapis_sapling",
+		"sound": "grass"
+	},
+	"bountiful_trees:quartz_sapling": {
+		"textures": "ore_tree_quartz_sapling",
+		"sound": "grass"
+	},
+	"bountiful_trees:lapis_log": {
+		"textures": {
+			"up": "ore_tree_lapis_log_up",
+			"down": "ore_tree_lapis_log_down",
+			"side": "ore_tree_lapis_log_side"
+		},
+		"sound": "wood"
+	},
+	"bountiful_trees:quartz_log": {
+		"textures": {
+			"up": "ore_tree_quartz_log_up",
+			"down": "ore_tree_quartz_log_down",
+			"side": "ore_tree_quartz_log_side"
+		},
+		"sound": "wood"
+	},
+	"bountiful_trees:redstone_sapling": {
+		"textures": "ore_tree_redstone_sapling",
+		"sound": "grass"
+	},
+	"bountiful_trees:redstone_log": {
+		"textures": {
+			"up": "ore_tree_redstone_log_up",
+			"down": "ore_tree_redstone_log_down",
+			"side": "ore_tree_redstone_log_side"
+		},
+		"sound": "wood"
+	},
+	"bountiful_trees:steel_log": {
+		"textures": {
+			"up": "ore_tree_steel_log_up",
+			"down": "ore_tree_steel_log_down",
+			"side": "ore_tree_steel_log_side"
+		},
+		"sound": "wood"
+	},
+	"bountiful_trees:energized_iron_log": {
+		"textures": {
+			"up": "ore_tree_energized_iron_log_up",
+			"down": "ore_tree_energized_iron_log_down",
+			"side": "ore_tree_energized_iron_log_side"
+		},
+		"sound": "wood"
+	},
+	"bountiful_trees:steel_sapling": {
+		"textures": "ore_tree_steel_sapling",
+		"sound": "grass"
+	},
+	"bountiful_trees:energized_iron_sapling": {
+		"textures": "ore_tree_energized_iron_sapling",
+		"sound": "grass"
+	},
+	"bountiful_trees:netherite_sapling": {
+		"textures": "ore_tree_netherite_sapling",
+		"sound": "grass"
+	},
+	"bountiful_trees:netherite_log": {
+		"textures": {
+			"up": "ore_tree_netherite_log_up",
+			"down": "ore_tree_netherite_log_down",
+			"side": "ore_tree_netherite_log_side"
+		},
+		"sound": "wood"
+	},
+	"bountiful_trees:coal_leaves": {
+		"sound": "grass",
+		"textures": "ore_tree_coal_leaves"
+	},
+	"bountiful_trees:diamond_leaves": {
+		"sound": "grass",
+		"textures": "ore_tree_diamond_leaves"
+	},
+	"bountiful_trees:emerald_leaves": {
+		"sound": "grass",
+		"textures": "ore_tree_emerald_leaves"
+	},
+	"bountiful_trees:gold_leaves": {
+		"sound": "grass",
+		"textures": "ore_tree_gold_leaves"
+	},
+	"bountiful_trees:iron_leaves": {
+		"sound": "grass",
+		"textures": "ore_tree_iron_leaves"
+	},
+	"bountiful_trees:lapis_leaves": {
+		"sound": "grass",
+		"textures": "ore_tree_lapis_leaves"
+	},
+	"bountiful_trees:netherite_leaves": {
+		"sound": "grass",
+		"textures": "ore_tree_netherite_leaves"
+	},
+	"bountiful_trees:quartz_leaves": {
+		"sound": "grass",
+		"textures": "ore_tree_quartz_leaves"
+	},
+	"bountiful_trees:redstone_leaves": {
+		"sound": "grass",
+		"textures": "ore_tree_redstone_leaves"
+	},
+	"bountiful_trees:steel_leaves": {
+		"sound": "grass",
+		"textures": "ore_tree_steel_leaves"
+	},
+	"bountiful_trees:energized_iron_leaves": {
+		"sound": "grass",
+		"textures": "ore_tree_energized_iron_leaves"
+	},
+	"bountiful_trees:copper_leaves": {
+		"sound": "grass",
+		"textures": "ore_tree_copper_leaves"
+	}
+}
