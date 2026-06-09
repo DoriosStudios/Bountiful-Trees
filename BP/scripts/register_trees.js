@@ -6,10 +6,10 @@ const treesData = {
         entity: "bountiful_trees:coal_tree",
         cost: 64_000,
         drops: [
-            { item: 'bountiful_trees:coal_log', amount: [6, 8], chance: 1 },
-            { item: 'bountiful_trees:coal_leaves', amount: [0, 2], chance: 1 },
-            { item: 'bountiful_trees:coal_sapling', amount: 1, chance: 0.05 },
-            { item: 'minecraft:stick', amount: [6, 10], chance: 1 }
+            { item: 'minecraft:coal', amount: [1, 2], chance: 1 },
+            { item: 'bountiful_trees:coal_leaves', amount: [0, 2], chance: 0.25 },
+            { item: 'bountiful_trees:coal_sapling', amount: 1, chance: 0.025 },
+            { item: 'minecraft:stick', amount: [4, 8], chance: 1 }
         ]
     },
 
@@ -18,10 +18,10 @@ const treesData = {
         entity: "bountiful_trees:copper_tree",
         cost: 64_000,
         drops: [
-            { item: 'bountiful_trees:copper_log', amount: [6, 8], chance: 1 },
+            { item: 'minecraft:copper_nugget', amount: [2, 4], chance: 1 },
             { item: 'bountiful_trees:copper_leaves', amount: [0, 2], chance: 1 },
-            { item: 'bountiful_trees:copper_sapling', amount: 1, chance: 0.05 },
-            { item: 'minecraft:stick', amount: [6, 10], chance: 1 }
+            { item: 'bountiful_trees:copper_sapling', amount: 1, chance: 0.025 },
+            { item: 'minecraft:stick', amount: [4, 8], chance: 1 }
         ]
     },
 
@@ -30,10 +30,10 @@ const treesData = {
         entity: "bountiful_trees:iron_tree",
         cost: 128_000,
         drops: [
-            { item: 'bountiful_trees:iron_log', amount: [6, 8], chance: 1 },
+            { item: 'minecraft:iron_nugget', amount: [6, 8], chance: 1 },
             { item: 'bountiful_trees:iron_leaves', amount: [0, 2], chance: 1 },
-            { item: 'bountiful_trees:iron_sapling', amount: 1, chance: 0.05 },
-            { item: 'minecraft:stick', amount: [6, 10], chance: 1 }
+            { item: 'bountiful_trees:iron_sapling', amount: 1, chance: 0.025 },
+            { item: 'minecraft:stick', amount: [4, 8], chance: 1 }
         ]
     },
 
@@ -42,10 +42,10 @@ const treesData = {
         entity: "bountiful_trees:redstone_tree",
         cost: 128_000,
         drops: [
-            { item: 'bountiful_trees:redstone_log', amount: [6, 8], chance: 1 },
+            { item: 'minecraft:redstone', amount: [1, 2], chance: 1 },
             { item: 'bountiful_trees:redstone_leaves', amount: [0, 2], chance: 1 },
-            { item: 'bountiful_trees:redstone_sapling', amount: 1, chance: 0.05 },
-            { item: 'minecraft:stick', amount: [6, 10], chance: 1 }
+            { item: 'bountiful_trees:redstone_sapling', amount: 1, chance: 0.025 },
+            { item: 'minecraft:stick', amount: [4, 8], chance: 1 }
         ]
     },
 
@@ -54,10 +54,10 @@ const treesData = {
         entity: "bountiful_trees:gold_tree",
         cost: 128_000,
         drops: [
-            { item: 'bountiful_trees:gold_log', amount: [6, 8], chance: 1 },
+            { item: 'minecraft:gold_nugget', amount: [2, 4], chance: 1 },
             { item: 'bountiful_trees:gold_leaves', amount: [0, 2], chance: 1 },
-            { item: 'bountiful_trees:gold_sapling', amount: 1, chance: 0.05 },
-            { item: 'minecraft:stick', amount: [6, 10], chance: 1 }
+            { item: 'bountiful_trees:gold_sapling', amount: 1, chance: 0.025 },
+            { item: 'minecraft:stick', amount: [4, 8], chance: 1 }
         ]
     },
 
@@ -66,10 +66,10 @@ const treesData = {
         entity: "bountiful_trees:lapis_tree",
         cost: 128_000,
         drops: [
-            { item: 'bountiful_trees:lapis_log', amount: [6, 8], chance: 1 },
+            { item: 'minecraft:lapis_lazuli', amount: [1, 3], chance: 1 },
             { item: 'bountiful_trees:lapis_leaves', amount: [0, 2], chance: 1 },
-            { item: 'bountiful_trees:lapis_sapling', amount: 1, chance: 0.05 },
-            { item: 'minecraft:stick', amount: [6, 10], chance: 1 }
+            { item: 'bountiful_trees:lapis_sapling', amount: 1, chance: 0.025 },
+            { item: 'minecraft:stick', amount: [4, 8], chance: 1 }
         ]
     },
 
@@ -78,10 +78,10 @@ const treesData = {
         entity: "bountiful_trees:diamond_tree",
         cost: 512_000,
         drops: [
-            { item: 'bountiful_trees:diamond_log', amount: [6, 8], chance: 1 },
+            { item: 'utilitycraft:diamond_shard', amount: [2, 6], chance: 1 },
             { item: 'bountiful_trees:diamond_leaves', amount: [0, 2], chance: 1 },
-            { item: 'bountiful_trees:diamond_sapling', amount: 1, chance: 0.05 },
-            { item: 'minecraft:stick', amount: [6, 10], chance: 1 }
+            { item: 'bountiful_trees:diamond_sapling', amount: 1, chance: 0.025 },
+            { item: 'minecraft:stick', amount: [4, 8], chance: 1 }
         ]
     },
 
@@ -90,10 +90,10 @@ const treesData = {
         entity: "bountiful_trees:emerald_tree",
         cost: 512_000,
         drops: [
-            { item: 'bountiful_trees:emerald_log', amount: [6, 8], chance: 1 },
+            { item: 'utilitycraft:emerald_shard', amount: [2, 6], chance: 1 },
             { item: 'bountiful_trees:emerald_leaves', amount: [0, 2], chance: 1 },
-            { item: 'bountiful_trees:emerald_sapling', amount: 1, chance: 0.05 },
-            { item: 'minecraft:stick', amount: [6, 10], chance: 1 }
+            { item: 'bountiful_trees:emerald_sapling', amount: 1, chance: 0.025 },
+            { item: 'minecraft:stick', amount: [4, 8], chance: 1 }
         ]
     },
 
@@ -102,24 +102,22 @@ const treesData = {
         entity: "bountiful_trees:quartz_tree",
         cost: 512_000,
         drops: [
-            { item: 'bountiful_trees:quartz_log', amount: [6, 8], chance: 1 },
+            { item: 'minecraft:quartz', amount: [1, 3], chance: 1 },
             { item: 'bountiful_trees:quartz_leaves', amount: [0, 2], chance: 1 },
-            { item: 'bountiful_trees:quartz_sapling', amount: 1, chance: 0.05 },
-            { item: 'minecraft:stick', amount: [6, 10], chance: 1 }
+            { item: 'bountiful_trees:quartz_sapling', amount: 1, chance: 0.025 },
+            { item: 'minecraft:stick', amount: [4, 8], chance: 1 }
         ]
     },
 
     'bountiful_trees:netherite_tree': {
         sapling: "bountiful_trees:netherite_sapling",
         entity: "bountiful_trees:netherite_tree",
-        disableTimeBonus: true,
-        disableYieldBonus: true,
         cost: 1_024_000,
         drops: [
-            { item: 'bountiful_trees:netherite_log', amount: [6, 8], chance: 1 },
+            { item: 'utilitycraft:netherite_nugget', amount: [1, 3], chance: 1 },
             { item: 'bountiful_trees:netherite_leaves', amount: [0, 2], chance: 1 },
-            { item: 'bountiful_trees:netherite_sapling', amount: 1, chance: 0.05 },
-            { item: 'minecraft:stick', amount: [6, 10], chance: 1 }
+            { item: 'bountiful_trees:netherite_sapling', amount: 1, chance: 0.025 },
+            { item: 'minecraft:stick', amount: [4, 8], chance: 1 }
         ]
     },
 
@@ -128,9 +126,9 @@ const treesData = {
         entity: "bountiful_trees:energized_iron_tree",
         cost: 512_000,
         drops: [
-            { item: 'bountiful_trees:energized_iron_log', amount: [6, 8], chance: 1 },
+            { item: 'utilitycraft:energized_iron_nugget', amount: [6, 8], chance: 1 },
             { item: 'bountiful_trees:energized_iron_leaves', amount: [0, 2], chance: 1 },
-            { item: 'minecraft:stick', amount: [6, 10], chance: 1 }
+            { item: 'minecraft:stick', amount: [4, 8], chance: 1 }
         ]
     },
 
@@ -139,10 +137,10 @@ const treesData = {
         entity: "bountiful_trees:steel_tree",
         cost: 1_024_000,
         drops: [
-            { item: 'bountiful_trees:steel_log', amount: [6, 8], chance: 1 },
+            { item: 'utilitycraft:steel_nugget', amount: [6, 8], chance: 1 },
             { item: 'bountiful_trees:steel_leaves', amount: [0, 2], chance: 1 },
-            { item: 'bountiful_trees:steel_sapling', amount: 1, chance: 0.05 },
-            { item: 'minecraft:stick', amount: [6, 10], chance: 1 }
+            { item: 'bountiful_trees:steel_sapling', amount: 1, chance: 0.025 },
+            { item: 'minecraft:stick', amount: [4, 8], chance: 1 }
         ]
     }
 
