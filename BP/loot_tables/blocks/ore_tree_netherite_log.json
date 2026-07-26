@@ -2,23 +2,23 @@
   "pools": [
     {
       "rolls": 1,
-      "entries": [
-        {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:log"
-        }
-      ]
+      "conditions": [{ "condition": "match_tool", "minecraft:match_tool_filter_any": ["minecraft:is_pickaxe", "minecraft:is_axe"] }],
+      "entries": [{ "type": "item", "name": "minecraft:netherite_scrap" }]
     },
     {
       "rolls": 1,
-      "entries": [
-        {
-          "type": "item",
-          "weight": 1,
-          "name": "netherite_scrap"
-        }
-      ]
+      "conditions": [{ "condition": "match_tool", "minecraft:match_tool_filter_any": ["minecraft:is_pickaxe", "minecraft:is_axe"], "enchantments": [{ "enchantment": "fortune", "levels": { "range_min": 1 } }] }],
+      "entries": [{ "type": "item", "name": "minecraft:netherite_scrap" }, { "type": "empty" }]
+    },
+    {
+      "rolls": 1,
+      "conditions": [{ "condition": "match_tool", "minecraft:match_tool_filter_any": ["minecraft:is_pickaxe", "minecraft:is_axe"], "enchantments": [{ "enchantment": "fortune", "levels": { "range_min": 2 } }] }],
+      "entries": [{ "type": "item", "name": "minecraft:netherite_scrap" }, { "type": "empty" }]
+    },
+    {
+      "rolls": 1,
+      "conditions": [{ "condition": "match_tool", "minecraft:match_tool_filter_any": ["minecraft:is_pickaxe", "minecraft:is_axe"], "enchantments": [{ "enchantment": "fortune", "levels": { "range_min": 3 } }] }],
+      "entries": [{ "type": "item", "name": "minecraft:netherite_scrap" }, { "type": "empty" }]
     }
   ]
 }

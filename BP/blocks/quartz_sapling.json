@@ -17,6 +17,12 @@
 				"explosion_resistance": 0
 			},
 			"minecraft:geometry": "geometry.custom_sapling",
+			"minecraft:placement_filter": {
+				"conditions": [{
+					"allowed_faces": ["up"],
+					"block_filter": ["minecraft:grass_block", "minecraft:dirt", "minecraft:coarse_dirt", "minecraft:podzol", "minecraft:mycelium", "minecraft:moss_block", "minecraft:pale_moss_block", "minecraft:mud", "minecraft:muddy_mangrove_roots"]
+				}]
+			},
 			"minecraft:map_color": "#FFFFFF",
 			"minecraft:material_instances": {
 				"*": {
