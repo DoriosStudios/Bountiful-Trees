@@ -23,15 +23,24 @@ system.beforeEvents.startup.subscribe(({ blockComponentRegistry }) => {
             if (block.permutation.getState("bountiful_trees:placed")) return;
 
             const isPersistent = checkConnection(block, allowedLogs, maxDistance);
+
+            // An incomplete scan means a neighboring chunk is not available yet.
+            // Never interpret that as a disconnected leaf or trigger decay.
+            if (isPersistent === undefined) return;
+
             const currentState = block.permutation.getState("bountiful_trees:persistent_bit");
 
             // Update state only if necessary
             if (isPersistent !== currentState) {
-                const updated = BlockPermutation.resolve(block.typeId, {
-                    ...block.permutation.getAllStates(),
-                    "bountiful_trees:persistent_bit": isPersistent,
-                });
-                block.setPermutation(updated);
+                try {
+                    const updated = BlockPermutation.resolve(block.typeId, {
+                        ...block.permutation.getAllStates(),
+                        "bountiful_trees:persistent_bit": isPersistent,
+                    });
+                    block.setPermutation(updated);
+                } catch {
+                    return;
+                }
             }
 
             // If not connected to a valid log and not placed -> decay naturally
@@ -66,38 +75,66 @@ system.beforeEvents.startup.subscribe(({ blockComponentRegistry }) => {
  * @param {import('@minecraft/server').Block} startBlock
  * @param {string[]} allowed
  * @param {number} maxDist
- * @returns {boolean}
+ * Returns undefined when the scan touches an unavailable block/chunk.
+ * @returns {boolean | undefined}
  */
 function checkConnection(startBlock, allowed, maxDist) {
     const visited = new Set();
     const queue = [{ block: startBlock, dist: 0 }];
+    let startTypeId;
+
+    try {
+        if (!startBlock?.isValid) return undefined;
+        startTypeId = startBlock.typeId;
+    } catch {
+        return undefined;
+    }
 
     while (queue.length > 0) {
         const { block, dist } = queue.shift();
-        if (!block || dist > maxDist) continue;
+        if (dist > maxDist) continue;
+        if (!block?.isValid) return undefined;
 
-        const key = `${block.location.x},${block.location.y},${block.location.z}`;
+        let key;
+        let typeId;
+
+        try {
+            key = `${block.location.x},${block.location.y},${block.location.z}`;
+            typeId = block.typeId;
+        } catch {
+            return undefined;
+        }
+
         if (visited.has(key)) continue;
         visited.add(key);
 
         // Found a valid log nearby
-        if (allowed.includes(block.typeId)) return true;
+        if (allowed.includes(typeId)) return true;
 
         // Only propagate through the same leaf type
-        if (block.typeId === startBlock.typeId) {
-            const neighbors = [
-                block.above(),
-                block.below(),
-                block.north(),
-                block.south(),
-                block.east(),
-                block.west(),
-            ];
+        if (typeId === startTypeId && dist < maxDist) {
+            let neighbors;
+
+            try {
+                neighbors = [
+                    block.above(),
+                    block.below(),
+                    block.north(),
+                    block.south(),
+                    block.east(),
+                    block.west(),
+                ];
+            } catch {
+                return undefined;
+            }
 
             for (const n of neighbors) {
-                if (n && !visited.has(`${n.location.x},${n.location.y},${n.location.z}`)) {
-                    queue.push({ block: n, dist: dist + 1 });
-                }
+                // Neighbor methods can return undefined when their chunk is not
+                // available. Abort this tick instead of treating it as air.
+                if (!n?.isValid) return undefined;
+
+                const neighborKey = `${n.location.x},${n.location.y},${n.location.z}`;
+                if (!visited.has(neighborKey)) queue.push({ block: n, dist: dist + 1 });
             }
         }
     }
