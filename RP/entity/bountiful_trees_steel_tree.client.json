@@ -17,7 +17,8 @@
 			],
 			"animations": {
 				"controller": "controller.animation.bountiful_trees_bonsai_dynamic",
-				"grow_dynamic": "animation.bountiful_trees_bonsai.grow_dynamic"
+				"grow_dynamic": "animation.bountiful_trees_bonsai.grow_dynamic",
+				"decorative_max": "animation.bountiful_trees_bonsai.decorative_max"
 			},
 			"scripts": {
 				"animate": [
