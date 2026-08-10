@@ -1,3 +1,13 @@
+# Bountiful Trees v1.2.1
+
+This maintenance release improves compatibility with modern Minecraft Bedrock worlds.
+
+## COMPATIBILITY
+- Added Achievements compatibility.
+- Added Vibrant Visuals compatibility.
+
+---
+
 # Bountiful Trees v1.2.0
 
 This update completely reworks Bountiful Trees with new visuals, improved tree behavior, and native compatibility with Bountiful Bonsais and UtilityCraft.
