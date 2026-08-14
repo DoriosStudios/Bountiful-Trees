@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/DoriosStudios/Dorios-Workflows/main/releases/schemas/project.schema.json",
+  "$schema": "https://raw.githubusercontent.com/DoriosStudios/Dorios-Workflows/v1.0.0-rc.1/releases/schemas/project.schema.json",
   "schemaVersion": 1,
   "project": {
     "name": "Bountiful Trees",
