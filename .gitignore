@@ -9,3 +9,4 @@ builds
 artifacts
 .regolith
 node_modules
+.dorios-release

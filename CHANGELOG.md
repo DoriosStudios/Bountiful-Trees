@@ -1,5 +1,10 @@
 # Bountiful Trees v1.2.2
 
+This update rebalances ore sapling crafting to make resource-tree progression more intentional.
+
+## HIGHLIGHTS
+- Rebalanced every ore sapling recipe around resource blocks in key crafting slots.
+
 ## CHANGED
 - Rebalanced ore sapling recipes to require resource blocks in key crafting slots.
 

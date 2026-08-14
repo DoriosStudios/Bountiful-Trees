@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DoriosStudios/Dorios-Workflows/main/releases/schemas/project.schema.json",
+  "schemaVersion": 1,
+  "project": {
+    "name": "Bountiful Trees",
+    "slug": "trees"
+  },
+  "release": {
+    "defaultChannel": "stable",
+    "bedrockManifestPaths": [
+      "BP/manifest.json",
+      "RP/manifest.json"
+    ]
+  },
+  "build": {
+    "enabled": true,
+    "type": "regolith",
+    "developmentProfile": "buildDev",
+    "releaseProfile": "buildMinify",
+    "outputDirectory": "build",
+    "packDirectories": [
+      "Bountiful Trees BP",
+      "Bountiful Trees RP"
+    ]
+  },
+  "distribution": {
+    "github": true,
+    "curseforge": {
+      "enabled": true,
+      "projectId": 1310972,
+      "gameVersion": "26.30"
+    }
+  },
+  "links": {
+    "website": "https://doriosstudios.com/projects/trees/",
+    "curseforge": "https://www.curseforge.com/minecraft-bedrock/addons/bountiful-trees",
+    "mcpedl": "https://mcpedl.com/bountiful-trees/"
+  },
+  "announcement": {
+    "enabled": true,
+    "color": "5F8F3D",
+    "imageUrl": "https://doriosstudios.com/img/addons/trees/MCPEDL.png",
+    "automaticDelayMinutes": 60
+  }
+}

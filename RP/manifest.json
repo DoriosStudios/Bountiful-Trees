@@ -7,13 +7,13 @@
 		"product_type": "addon"
 	},
 	"header": {
-		"description": "v1.2.1 - Dorios Studios",
+		"description": "v1.2.2 - Dorios Studios",
 		"name": "Bountiful Trees",
 		"uuid": "69062448-6a14-4dea-a377-0e113aa15b11",
 		"version": [
 			1,
 			2,
-			1
+			2
 		],
 		"min_engine_version": [
 			1,
@@ -39,7 +39,7 @@
 			"version": [
 				1,
 				2,
-				1
+				2
 			]
 		}
 	]
