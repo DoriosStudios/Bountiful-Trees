@@ -10,7 +10,7 @@
 		"pattern": [
 			"CCC",
 			"CBC",
-			"CCC"
+			"CDC"
 		],
 		"key": {
 			"B": {
@@ -19,6 +19,10 @@
 			},
 			"C": {
 				"item": "minecraft:diamond",
+				"data": 0
+			},
+			"D": {
+				"item": "minecraft:diamond_block",
 				"data": 0
 			}
 		},

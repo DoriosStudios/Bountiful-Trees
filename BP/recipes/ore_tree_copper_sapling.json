@@ -10,7 +10,7 @@
 		"pattern": [
 			"CCC",
 			"CBC",
-			"CCC"
+			"CDC"
 		],
 		"key": {
 			"B": {
@@ -19,6 +19,10 @@
 			},
 			"C": {
 				"item": "minecraft:copper_ingot",
+				"data": 0
+			},
+			"D": {
+				"item": "minecraft:copper_block",
 				"data": 0
 			}
 		},

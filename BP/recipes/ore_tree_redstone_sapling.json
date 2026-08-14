@@ -8,9 +8,9 @@
 			"crafting_table"
 		],
 		"pattern": [
-			"CCC",
-			"CBC",
-			"CCC"
+			"CDC",
+			"DBD",
+			"CDC"
 		],
 		"key": {
 			"B": {
@@ -19,6 +19,10 @@
 			},
 			"C": {
 				"item": "minecraft:redstone",
+				"data": 0
+			},
+			"D": {
+				"item": "minecraft:redstone_block",
 				"data": 0
 			}
 		},

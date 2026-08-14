@@ -1,3 +1,10 @@
+# Bountiful Trees v1.2.2
+
+## CHANGED
+- Rebalanced ore sapling recipes to require resource blocks in key crafting slots.
+
+---
+
 # Bountiful Trees v1.2.1
 
 This maintenance release improves compatibility with modern Minecraft Bedrock worlds.
